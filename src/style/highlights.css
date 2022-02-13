@@ -1,0 +1,61 @@
+.highlights {
+  background-color: #F7B094;
+  padding: 4rem 0 2rem 0;
+}
+.highlights__title {
+  color: white;
+  text-align: center;
+}
+.highlights__title__span {
+  color: #345C7D;
+}
+.highlights__carousel {
+  margin: 3rem;
+}
+
+.item-card {
+  background-color: white;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 0 1rem;
+  height: 28rem;
+}
+.item-card__image {
+  height: 15rem;
+  margin-bottom: 1rem;
+}
+.item-card__title {
+  color: #345C7D;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+.item-card__price {
+  color: #F5717F;
+  font-weight: bold;
+  padding-bottom: 0.7rem;
+}
+.item-card__rate {
+  align-self: center;
+}
+.item-card__button-div {
+  align-items: center;
+  background-color: #FF8A00;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+  padding: 0.3rem;
+}
+.item-card__button-div__button {
+  background-color: transparent;
+  border: none;
+}
+.item-card__button-div__title {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 0.3rem;
+}
+
+/*# sourceMappingURL=highlights.css.map */

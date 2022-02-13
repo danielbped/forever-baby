@@ -1,3 +1,6 @@
+.carousel {
+  background-color: #F7B094;
+}
 .carousel__item__image {
   height: 50vh;
   width: 100%;

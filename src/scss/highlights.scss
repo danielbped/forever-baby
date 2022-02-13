@@ -1,0 +1,69 @@
+.highlights {
+  background-color: #F7B094;
+  padding: 4rem 0 2rem 0;
+
+  &__title {
+    color: white;
+    text-align: center;
+    &__span {
+      color: #345C7D;
+    }
+  }
+
+  &__carousel {
+    margin: 3rem;
+  }
+}
+
+.item-card {
+  background-color: white;
+  margin: .5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 0 1rem;
+  height: 28rem;
+
+  &__image {
+    height: 15rem;
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    color: #345C7D;
+    font-size: .8rem;
+    padding-bottom: .5rem;
+  }
+
+  &__price {
+    color: #F5717F;
+    font-weight: bold;
+    padding-bottom: .7rem;
+  }
+
+  &__rate {
+  align-self: center; 
+  }
+
+  &__button-div {
+    align-items: center;
+    background-color: #FF8A00;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+    padding: .3rem;
+    
+
+    &__button {
+      background-color: transparent;
+      border: none;
+    }
+
+    &__title {
+      color: white;
+      font-size: .8rem;
+      font-weight: bold;
+      margin-left: .3rem;
+    }
+  }
+};
