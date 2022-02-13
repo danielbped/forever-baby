@@ -1,12 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Input = ({ name, onChange, placeholder, className }) => {
+const Input = ({
+  name,
+  onChange,
+  placeholder,
+  className,
+  isDisabled,
+}) => {
   return (
     <div className={ className }>
       <input
         name={ name }
-        onChange={ onChange }
+        onChange={ ({target: { value }}) => onChange(value) }
         placeholder={ placeholder }
         type="text"
         className={ `${className}__input` }
@@ -15,6 +21,7 @@ const Input = ({ name, onChange, placeholder, className }) => {
         name={ `${name}__button` }
         type="button"
         className={ `${className}__button` }
+        disabled={ isDisabled() }
       >
         BUSCAR
       </button>
@@ -27,6 +34,7 @@ Input.propTypes = {
   onChange: PropTypes.func.isRequired,
   placeholder: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
+  isDisabled: PropTypes.bool.isRequired,
 }
 
 export default Input;
