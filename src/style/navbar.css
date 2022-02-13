@@ -1,0 +1,13 @@
+.navbar__list {
+  display: flex;
+  background-color: #F5717F;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.navbar__list__item {
+  color: white;
+  font-weight: bold;
+  list-style: none;
+}
+
+/*# sourceMappingURL=navbar.css.map */

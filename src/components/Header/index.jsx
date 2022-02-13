@@ -7,7 +7,7 @@ import IconProfile from '../../svg/Icon-profile.svg';
 import '../../style/header.css';
 
 const Header = () => (
-  <div className="header">
+  <header className="header">
     <img src={ Logo } alt="logo" />
     <Input
       name="searchbar"
@@ -26,7 +26,7 @@ const Header = () => (
         className="header__buttons__div"
       />
     </div>
-  </div>
+  </header>
 );
 
 export default Header;
