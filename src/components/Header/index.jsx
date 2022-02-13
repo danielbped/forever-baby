@@ -17,6 +17,7 @@ const Header = () => {
       <img src={ Logo } alt="logo" />
       <Input
         name="searchbar"
+        value={ search }
         placeholder="Qual o mimo de hoje para o seu anjinho?"
         className="header__searchbar"
         isDisabled={ isDisabled }
