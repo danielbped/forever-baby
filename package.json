@@ -37,10 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint": "^8.9.0",
-    "eslint-config-trybe-fundamentals": "^1.1.1",
-    "eslint-plugin-react": "^7.28.0"
   }
 }
