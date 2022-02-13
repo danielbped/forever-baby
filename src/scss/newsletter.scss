@@ -1,0 +1,53 @@
+.newsletter {
+  align-items: center;
+  background-color: #F5717F;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  &__title {
+    color: white;
+    padding-top: 1.5rem;
+  }
+
+  &__text {
+    color: white;
+    padding-bottom: .7rem;
+  }
+
+  &__bar {
+    display: flex;
+    padding-bottom: 1rem;
+    width: 50%;
+
+    &__input {
+      border: none;
+      border-radius: .3rem 0 0 .3rem;
+      outline: none;
+      padding: 1rem;
+      width: 100%;
+    }
+
+    &__button {
+      background-color: white;
+      border: none;
+      border-radius: 0 .3rem .3rem 0;
+      color: #345C7D;
+      font-weight: bold;
+      padding-right: 1rem;
+
+      &:disabled {
+        color: grey;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__warning {
+    color: white;
+    font-weight: bold;
+  }
+}

@@ -24,6 +24,12 @@
   font-weight: bold;
   padding-right: 1rem;
 }
+.header__searchbar__button:disabled {
+  color: grey;
+}
+.header__searchbar__button:hover {
+  cursor: pointer;
+}
 .header__buttons {
   align-items: center;
   display: flex;
@@ -45,6 +51,12 @@
   color: white;
   font-weight: bold;
   margin-top: 0.5rem;
+}
+.header__buttons__div__button__title:hover {
+  cursor: pointer;
+}
+.header__buttons__div__button:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=header.css.map */

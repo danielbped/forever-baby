@@ -9,6 +9,10 @@
       color: white;
       font-weight: bold;
       list-style: none;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }

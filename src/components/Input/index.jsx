@@ -7,11 +7,15 @@ const Input = ({
   placeholder,
   className,
   isDisabled,
+  title,
+  onClick,
+  value="",
 }) => {
   return (
     <div className={ className }>
       <input
         name={ name }
+        value={ value }
         onChange={ ({target: { value }}) => onChange(value) }
         placeholder={ placeholder }
         type="text"
@@ -21,9 +25,10 @@ const Input = ({
         name={ `${name}__button` }
         type="button"
         className={ `${className}__button` }
-        disabled={ isDisabled() }
+        disabled={ isDisabled && isDisabled() }
+        onClick={ onClick }
       >
-        BUSCAR
+        { title }
       </button>
     </div>
   );
@@ -32,6 +37,7 @@ const Input = ({
 Input.propTypes = {
   name: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
+  onClick: PropTypes.func.isRequired,
   placeholder: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
   isDisabled: PropTypes.bool.isRequired,

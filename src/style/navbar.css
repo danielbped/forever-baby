@@ -9,5 +9,8 @@
   font-weight: bold;
   list-style: none;
 }
+.navbar__list__item:hover {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=navbar.css.map */

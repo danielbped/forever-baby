@@ -26,12 +26,20 @@
   &__image {
     height: 15rem;
     margin-bottom: 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__title {
     color: #345C7D;
     font-size: .8rem;
     padding-bottom: .5rem;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__price {
@@ -52,7 +60,6 @@
     justify-content: center;
     margin: 1rem 0 1rem 0;
     padding: .3rem;
-    
 
     &__button {
       background-color: transparent;
@@ -64,6 +71,10 @@
       font-size: .8rem;
       font-weight: bold;
       margin-left: .3rem;
+    }
+
+    &:hover {
+      cursor: pointer;
     }
   }
 };

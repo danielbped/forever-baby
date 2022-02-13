@@ -25,10 +25,16 @@
   height: 15rem;
   margin-bottom: 1rem;
 }
+.item-card__image:hover {
+  cursor: pointer;
+}
 .item-card__title {
   color: #345C7D;
   font-size: 0.8rem;
   padding-bottom: 0.5rem;
+}
+.item-card__title:hover {
+  cursor: pointer;
 }
 .item-card__price {
   color: #F5717F;
@@ -56,6 +62,9 @@
   font-size: 0.8rem;
   font-weight: bold;
   margin-left: 0.3rem;
+}
+.item-card__button-div:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=highlights.css.map */

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Input from './Input';
+import Input from '../Input';
 import Button from './Button';
 import Logo from '../../svg/Logo.svg';
 import IconCart from '../../svg/Icon-cart.svg';
@@ -21,6 +21,7 @@ const Header = () => {
         className="header__searchbar"
         isDisabled={ isDisabled }
         onChange={ setSearch }
+        title="BUSCAR"
       />
       <div className="header__buttons">
         <Button

@@ -24,6 +24,14 @@
       color: #345C7D;
       font-weight: bold;
       padding-right: 1rem;
+
+      &:disabled {
+        color: grey;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 
@@ -48,6 +56,14 @@
           color: white;
           font-weight: bold;
           margin-top: .5rem;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        &:hover {
+          cursor: pointer;
         }
       }
     }
