@@ -15,6 +15,7 @@ const Main = () => (
     <Navbar />
     <Carousel />
     <Highlights />
+    <Highlights />
     <Newsletter />
     <Social />
     <Footer />

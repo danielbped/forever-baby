@@ -1,0 +1,12 @@
+.footer {
+  font-size: .7rem;
+  margin: auto;
+  opacity: .5;
+  padding: 1rem;
+  text-align: center;
+  width: 60%;
+
+  &__first {
+    margin-bottom: 1rem;
+  }
+}

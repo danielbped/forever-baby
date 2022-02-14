@@ -1,0 +1,54 @@
+.social {
+  background-color: #F1F1F1;
+  padding-top: 2rem;
+  color: #345C7D;
+
+  &__medias {
+    &__title {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    &__list {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin-top: 1rem;
+
+      &__item {
+        margin: 0 1rem;
+        width: 3rem;
+
+        &__link {
+          color: #F5717F;
+        }
+      }
+    }
+  }
+  
+  &__navbar {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+    &__list {
+      display: flex;
+      list-style: none;
+
+      &__item {
+        margin: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__payment-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    &__title {
+      font-size: 1.5rem;
+    }
+  }
+}

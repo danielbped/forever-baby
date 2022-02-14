@@ -1,0 +1,45 @@
+.social {
+  background-color: #F1F1F1;
+  padding-top: 2rem;
+  color: #345C7D;
+}
+.social__medias__title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.social__medias__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+}
+.social__medias__list__item {
+  margin: 0 1rem;
+  width: 3rem;
+}
+.social__medias__list__item__link {
+  color: #F5717F;
+}
+.social__navbar {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.social__navbar__list {
+  display: flex;
+  list-style: none;
+}
+.social__navbar__list__item {
+  margin: 1rem;
+  font-weight: bold;
+}
+.social__payment-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.social__payment-form__title {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=social.css.map */

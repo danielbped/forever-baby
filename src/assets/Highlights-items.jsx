@@ -1,5 +1,3 @@
-// https://api.mercadolibre.com/sites/MLB/search?category=MLB1384&q={query}
-
 const items = [
   {
     "id": 1,

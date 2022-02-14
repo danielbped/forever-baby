@@ -35,7 +35,7 @@ const Newsletter = () => {
 
   return (
     <div className="newsletter">
-      <h1 className="newsletter__title">NEWLETTER FOREVER BABY</h1>
+      <h1 className="newsletter__title">NEWSLETTER FOREVER BABY</h1>
       <p className="newsletter__text">Cadastre-se agora para não perder nenhuma promoção</p>
       <Input
         name="newsletter-input"
