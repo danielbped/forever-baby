@@ -7,7 +7,12 @@ const Navbar = () => (
     <ul className="navbar__list">
       { items.map((item) => 
         <li className="navbar__list__item">
-          { item }
+          <a
+            href="/"
+            className="navbar__list__item__link"
+          >
+            { item }
+          </a>
         </li>
       ) }
     </ul>

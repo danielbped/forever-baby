@@ -3,23 +3,28 @@ import PropTypes from 'prop-types';
 
 const Button = ({ name, onClick, img, title, className }) => {
   return (
-    <div className={ className }>
-      <button
-        name={ name }
-        onClick={ onClick }
-        type="button"
-        className={ `${className}__button` }
-      >
-        <img
-          src={ img }
-          alt={`${title.toLowerCase()}`}
-          className={ `${className}__button__image` }
-        />
-      </button>
-      <p className={ `${className}__button__title` }>
-        { title }
-      </p>
-    </div>
+    <a
+      href="/"
+      className={`${className}__link`}
+    >
+      <div className={ className }>
+        <button
+          name={ name }
+          onClick={ onClick }
+          type="button"
+          className={ `${className}__button` }
+        >
+          <img
+            src={ img }
+            alt={`${title.toLowerCase()}`}
+            className={ `${className}__button__image` }
+          />
+        </button>
+        <p className={ `${className}__button__title` }>
+          { title }
+        </p>
+      </div>
+    </a>
   );
 };
 

@@ -5,12 +5,15 @@
   padding: 1rem;
 }
 .navbar__list__item {
-  color: white;
   font-weight: bold;
   list-style: none;
 }
+.navbar__list__item__link {
+  color: white;
+  text-decoration: none;
+}
 .navbar__list__item:hover {
-  cursor: pointer;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=navbar.css.map */

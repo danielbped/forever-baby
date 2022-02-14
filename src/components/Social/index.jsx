@@ -29,7 +29,12 @@ const Social = () => (
       <ul className="social__navbar__list">
         { items.map((item) => 
           <li className="social__navbar__list__item">
-            { item }
+            <a
+              className="social__navbar__list__item__link"
+              href="/"
+            >
+              { item }
+            </a>
           </li>
         ) }
       </ul>

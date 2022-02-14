@@ -20,6 +20,10 @@
 .social__medias__list__item__link {
   color: #F5717F;
 }
+.social__medias__list__item__link:hover {
+  opacity: 0.8;
+  transition: 500ms;
+}
 .social__navbar {
   display: flex;
   justify-content: center;
@@ -32,6 +36,13 @@
 .social__navbar__list__item {
   margin: 1rem;
   font-weight: bold;
+}
+.social__navbar__list__item__link {
+  color: #345C7D;
+  text-decoration: none;
+}
+.social__navbar__list__item__link:hover {
+  text-decoration: underline;
 }
 .social__payment-form {
   align-items: center;

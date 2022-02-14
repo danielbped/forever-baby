@@ -6,12 +6,16 @@
     padding: 1rem;
 
     &__item {
-      color: white;
       font-weight: bold;
       list-style: none;
-
+      
+      &__link {
+        color: white;
+        text-decoration: none;
+      }
+      
       &:hover {
-        cursor: pointer;
+        text-decoration: underline;
       }
     }
   }

@@ -21,6 +21,11 @@
 
         &__link {
           color: #F5717F;
+
+          &:hover {
+            opacity: .8;
+            transition: 500ms;
+          }
         }
       }
     }
@@ -38,6 +43,15 @@
       &__item {
         margin: 1rem;
         font-weight: bold;
+
+        &__link {
+          color: #345C7D;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
     }
   }

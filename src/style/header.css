@@ -41,6 +41,12 @@
   flex-direction: column;
   margin: 0 1rem;
 }
+.header__buttons__div__link {
+  text-decoration: none;
+}
+.header__buttons__div__link:hover {
+  text-decoration: underline;
+}
 .header__buttons__div__button {
   background-color: #F5717F;
   border: none;
