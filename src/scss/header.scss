@@ -88,8 +88,39 @@
       width: 100%;
     }
 
-    &__logo {
-      padding-left: 2rem;
+    &__menu__logo {
+      display: flex;
+      align-items: center;
+  
+      &__logo {
+        margin-left: 1rem;
+      }
+  
+      &__burger-menu {
+        &__bar {
+          background-color: white;
+          margin: 0;
+          width: 3rem;
+        }
+    
+        &__menu {
+          background-color: #F5717F;
+          padding: 1rem;
+          height: 0;
+        }
+  
+        &__item {
+          color: white;
+          font-weight: bold;
+          text-decoration: none;
+          margin-bottom: .3rem;
+    
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+  
     }
 
     &__buttons {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Input from '../Input';
 import Button from './Button';
+import BurgerMenu from './BurgerMenu';
 import Logo from '../../svg/Logo.svg';
 import IconCart from '../../svg/Icon-cart.svg';
 import IconProfile from '../../svg/Icon-profile.svg';
@@ -14,12 +15,17 @@ const Header = () => {
 
   return (
     <header className="header">
-      <a
-        href="/"
-        className="header__logo"
-      >
-        <img src={ Logo } alt="logo" />
-      </a>
+      <div className="header__menu__logo">
+        <BurgerMenu
+          className="header__menu__logo__burger-menu"
+        />
+        <a
+          href="/"
+          className="header__menu__logo__logo"
+        >
+          <img src={ Logo } alt="logo" />
+        </a>
+      </div>
       <Input
         name="searchbar"
         value={ search }

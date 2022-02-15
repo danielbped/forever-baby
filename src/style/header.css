@@ -74,8 +74,31 @@
     order: 3;
     width: 100%;
   }
-  .header__logo {
-    padding-left: 2rem;
+  .header__menu__logo {
+    display: flex;
+    align-items: center;
+  }
+  .header__menu__logo__logo {
+    margin-left: 1rem;
+  }
+  .header__menu__logo__burger-menu__bar {
+    background-color: white;
+    margin: 0;
+    width: 3rem;
+  }
+  .header__menu__logo__burger-menu__menu {
+    background-color: #F5717F;
+    padding: 1rem;
+    height: 0;
+  }
+  .header__menu__logo__burger-menu__item {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 0.3rem;
+  }
+  .header__menu__logo__burger-menu__item:hover {
+    text-decoration: underline;
   }
   .header__buttons__div__button {
     width: 4rem;
