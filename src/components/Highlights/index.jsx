@@ -37,7 +37,7 @@ const Highlights = () => {
         </span>
       </h1>
       <div className="highlights__carousel">
-        <Slider { ...settings } style={{ flexWrap: 'wrap' }}>
+        <Slider { ...settings }>
           { items.map((item) => <ItemCard { ...item } />) }
         </Slider>
       </div>

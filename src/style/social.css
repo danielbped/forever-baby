@@ -53,4 +53,11 @@
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 900px) {
+  .social__navbar__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=social.css.map */
