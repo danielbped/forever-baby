@@ -82,4 +82,18 @@
   transition: 1000ms;
 }
 
+@media screen and (max-width: 900px) {
+  .highlights .item-card {
+    height: 26rem;
+  }
+  .highlights .item-card__title-link__title {
+    font-size: 1rem;
+  }
+  .highlights .item-card__image-link__image {
+    height: 10rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=highlights.css.map */

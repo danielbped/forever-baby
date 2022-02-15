@@ -8,11 +8,19 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Highlights = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 1
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   };
 
   return (
@@ -29,7 +37,7 @@ const Highlights = () => {
         </span>
       </h1>
       <div className="highlights__carousel">
-        <Slider { ...settings }>
+        <Slider { ...settings } style={{ flexWrap: 'wrap' }}>
           { items.map((item) => <ItemCard { ...item } />) }
         </Slider>
       </div>

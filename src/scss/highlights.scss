@@ -96,3 +96,24 @@
     }
   }
 };
+
+@media screen and (max-width: 900px) {
+  .highlights {
+    .item-card {
+      height: 26rem;
+
+      &__title-link {
+        &__title {
+          font-size: 1rem;
+        }
+      }
+      &__image-link {
+        &__image {
+          height: 10rem;
+          margin-bottom: 1rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
