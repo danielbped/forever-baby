@@ -1,70 +1,169 @@
-# Getting Started with Create React App
+![react-version](https://img.shields.io/badge/React-v17.0.2-yellow)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Teste Forever
 
-## Available Scripts
+- Trata-se de o desenvolvimento de um exemplo de site de produtos voltados para bebês.
 
-In the project directory, you can run:
+# Sumário
 
-### `npm start`
+- [Tecnologias utilizadas](#tecnologias)
+- [Instruções para rodar o projeto](#instrucoes)
+- [Organização e estruturação do projeto](#organizacao)
+- [Desenvolvimento](#desenvolvimento)
+- [Resultado](#resultado)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Tecnologias Utilizadas <a name="tecnologias"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [**React**](https://pt-br.reactjs.org/)
+- [**React Hooks**](https://pt-br.reactjs.org/docs/hooks-intro.html)
+- [**React Router Dom**](https://www.npmjs.com/package/react-router-dom)
+- [**SASS**](https://sass-lang.com/)
+- [**React Burger Menu**](https://www.npmjs.com/package/react-burger-menu)
+- [**React Rating Stars Component**](https://www.npmjs.com/package/react-rating-stars-component)
+- [**Slick Carousel**](https://react-slick.neostack.com/)
+- [**Styled Icons**](https://styled-icons.dev/)
+- [**Axios**](https://axios-http.com/docs/intro)
 
-### `npm test`
+# Instruções para rodar o projeto <a name="instrucoes"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Será necessário ter instalado na sua máquina:
 
-### `npm run build`
+```
+Git
+React
+Node v6.0.0^
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone o repositório com o comando **git clone**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone git@github.com:danielbped/forever-baby.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Entre no diretório que acabou de ser criado:
 
-### `npm run eject`
+```
+cd forever-baby
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Para o projeto funcionar na sua máquina, será necessário instalar suas dependências, para isso, utilize o comando **npm install**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Pronto, agora o projeto está pronto para ser rodado localmente, utilizando o comando **npm start**:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm start
+```
 
-## Learn More
+# Organização e estruturação do projeto <a name="organizacao"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O projeto está organizado e estruturado da seguinte forma:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+      ├── README.md
+      ├── public
+      ├── src
+      |     ├── Routes.jsx
+      |     ├── App.jsx
+      |     ├── index.jsx
+      |     ├── assets
+      |     |       ├── Carousel-items.jsx
+      |     |       ├── Footer-items.jsx
+      |     |       ├── Highlights-items.jsx
+      |     |       ├── Navbar-items.jsx
+      |     |       ├── Social-items.jsx
+      |     ├── components
+      |     |       ├── Carousel
+      |     |       |     ├── index.jsx
+      |     |       ├── Footer
+      |     |       |     ├── index.jsx
+      |     |       ├── Header
+      |     |       |     ├── index.jsx
+      |     |       |     ├── BurgerMenu.jsx
+      |     |       |     ├── Button.jsx
+      |     |       ├── Highlights
+      |     |       |     ├── index.jsx
+      |     |       |     ├── ItemCard.jsx
+      |     |       ├── Input
+      |     |       |     ├── index.jsx
+      |     |       ├── Navbar
+      |     |       |     ├── index.jsx
+      |     |       ├── Newsletter
+      |     |       |     ├── index.jsx
+      |     |       ├── Social
+      |     |       |     ├── index.jsx
+      |     |       ├── index.jsx
+      |     ├── pages
+      |     |       ├── Main.jsx
+      |     ├── scss
+      |     |       ├── carousel.scss
+      |     |       ├── font.scss
+      |     |       ├── footer.scss
+      |     |       ├── header.scss
+      |     |       ├── highlights.scss
+      |     |       ├── navbar.scss
+      |     |       ├── newsletter.scss
+      |     |       ├── reset.scss
+      |     |       ├── social.scss
+      |     ├── style
+      |     |       ├── carousel.css
+      |     |       ├── font.css
+      |     |       ├── footer.css
+      |     |       ├── header.css
+      |     |       ├── highlights.css
+      |     |       ├── navbar.css
+      |     |       ├── newsletter.css
+      |     |       ├── reset.css
+      |     |       ├── social.css
+      |     ├── svg
+      |     |       ├── Icon-cart.svg
+      |     |       ├── Icon-profile.svg
+      |     |       ├── Payment-form.svg
+      |     |       ├── Logo.svg
+```
 
-### Code Splitting
+# Desenvolvimento <a name="desenvolvimento" ></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Fetch
 
-### Analyzing the Bundle Size
+Para realizar o fetch no banco de dados fictício, foi utilizado o client HTTP [**Axios**](https://axios-http.com/docs/intro).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Estilização
 
-### Making a Progressive Web App
+Para realizar a estilização, foi utilizado o framework [**SASS**](https://sass-lang.com/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Menu Hamburger
 
-### Advanced Configuration
+Para desenvolver o menu hamburger, foi utilizada a biblioteca [**React Burger Menu**](https://www.npmjs.com/package/react-burger-menu).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Avaliações
 
-### Deployment
+Para desenvolver o componente com as estrelas de avaliação, foi utilizada a biblioteca [**React Rating Stars Component**](https://www.npmjs.com/package/react-rating-stars-component).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Carrossel
 
-### `npm run build` fails to minify
+Para desenvolver o componente de carrossel, foi utilizada a biblioteca [**Slick Carousel**](https://react-slick.neostack.com/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Icones
+
+Os ícones utilizados foram os da biblioteca [**Styled Icons**](https://styled-icons.dev/).
+
+# Resultado <a name="resultado"></a>
+
+## Header, Navbar e Banner
+
+![Header](images/header+banner.png)
+![Header Responsivo](images/header+banner_responsivo.png)
+![Burger Menu](images/burger-menu.png)
+## Forever Baby destaques
+
+![Destaques](images/highlights.png)
+![Destaques Responsivo](images/highlights_responsivo.png)
+
+## Newsletter, Social e Footer
+
+![Newsletter](images/footer+newsletter+social.png)
+![Newsletter Responsivo](images/newsletter-responsivo.png)

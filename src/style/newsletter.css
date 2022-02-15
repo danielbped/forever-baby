@@ -44,4 +44,10 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 900px) {
+  .newsletter__bar {
+    width: 80%;
+  }
+}
+
 /*# sourceMappingURL=newsletter.css.map */

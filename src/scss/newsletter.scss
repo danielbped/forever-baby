@@ -51,3 +51,11 @@
     font-weight: bold;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .newsletter {
+    &__bar {
+      width: 80%;
+    }
+  }
+}
