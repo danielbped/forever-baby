@@ -14,7 +14,10 @@ const Header = () => {
 
   return (
     <header className="header">
-      <a href="/">
+      <a
+        href="/"
+        className="header__logo"
+      >
         <img src={ Logo } alt="logo" />
       </a>
       <Input

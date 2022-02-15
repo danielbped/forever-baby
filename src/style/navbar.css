@@ -16,4 +16,10 @@
   text-decoration: underline;
 }
 
+@media screen and (max-width: 800px) {
+  .navbar {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=navbar.css.map */
