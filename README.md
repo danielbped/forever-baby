@@ -156,14 +156,26 @@ Os ícones utilizados foram os da biblioteca [**Styled Icons**](https://styled-i
 ## Header, Navbar e Banner
 
 ![Header](images/header+banner.png)
+
+- Responsivo
+
 ![Header Responsivo](images/header+banner_responsivo.png)
+
+- Menu Hamburger
+
 ![Burger Menu](images/burger-menu.png)
 ## Forever Baby destaques
 
 ![Destaques](images/highlights.png)
+
+- Responsivo
+
 ![Destaques Responsivo](images/highlights_responsivo.png)
 
 ## Newsletter, Social e Footer
 
 ![Newsletter](images/footer+newsletter+social.png)
+
+- Responsivo
+
 ![Newsletter Responsivo](images/newsletter-responsivo.png)
