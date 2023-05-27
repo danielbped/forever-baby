@@ -3,7 +3,7 @@ import Routes from './Routes.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={ process.env.PUBLIC_URL }>
       <Routes />
     </BrowserRouter>
   );
