@@ -4,6 +4,8 @@
 
 - Trata-se de o desenvolvimento de um exemplo de site de produtos voltados para bebês.
 
+### [Deploy](https://danielbped.github.io/forever-baby/)
+
 # Sumário
 
 - [Tecnologias utilizadas](#tecnologias)
