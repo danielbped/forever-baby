@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/forever-baby/static/css/main.c24effec.css",
+    "main.js": "/forever-baby/static/js/main.27d2fb55.js",
+    "static/media/Payment-form.svg": "/forever-baby/static/media/Payment-form.f54e8a7a737d36ab07b342adc299e8e8.svg",
+    "static/media/Logo.svg": "/forever-baby/static/media/Logo.1c9d4434a32a3cee28a100e2a1ebebc3.svg",
+    "static/media/slick.svg": "/forever-baby/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/forever-baby/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/forever-baby/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/Icon-cart.svg": "/forever-baby/static/media/Icon-cart.b05a7d8a3e2ad1e8f714317e8dde926e.svg",
+    "static/media/slick.woff": "/forever-baby/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/forever-baby/index.html",
+    "static/media/Icon-profile.svg": "/forever-baby/static/media/Icon-profile.df6a3f87b97404bce138b63e5fb6721f.svg",
+    "main.c24effec.css.map": "/forever-baby/static/css/main.c24effec.css.map",
+    "main.27d2fb55.js.map": "/forever-baby/static/js/main.27d2fb55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c24effec.css",
+    "static/js/main.27d2fb55.js"
+  ]
+}
